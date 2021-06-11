@@ -1,6 +1,6 @@
 # macos-vaccinatie-poller
 
-Note, this only works on MacOS currently.
+Note, this only works on **MacOS** currently.
 
 1. Change path to the location of "greensquare.png" (for example, ~/Downloads/greensquare.png)
 2. Change year to your birthyear
