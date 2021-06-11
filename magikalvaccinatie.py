@@ -1,10 +1,10 @@
 import os
 import time
 
-year = "1990"
-path = "~/" # Path to the location of the greensquare.png
+year = "1994"
+path = "~/macos-vaccinatie-poller/" # Path to the location of the greensquare.png
 
-query = "curl https://user-api.coronatest.nl/vaccinatie/programma/bepaalbaar/"+ year +"/NEE/NEE"
+query = "curl -s https://user-api.coronatest.nl/vaccinatie/programma/bepaalbaar/"+ year +"/NEE/NEE"
 
 print("watching...")
 while(True):
